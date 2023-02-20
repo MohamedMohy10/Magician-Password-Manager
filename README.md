@@ -7,7 +7,7 @@ Simple Password Manager app
 
 
 ## How to use
-It is very simple and user friendly 
+very simple and user friendly 
 - Enter the name of the place\website\platform you are signing up for
 - Enter the user name or Email
 - Enter the password or make the MAGICIAN generate a (12 ~ 18)-character random password through "Generate Password" button
