@@ -10,7 +10,7 @@ Simple Password Manager app
 very simple and user friendly 
 - Enter the name of the place\website\platform you are signing up for
 - Enter the user name or Email
-- Enter the password or make the MAGICIAN generate a (12 ~ 18)-character random password through "Generate Password" button
+- Enter the password OR make the MAGICIAN generate a (12 ~ 18)-character random password through "Generate Password" button
 - Press "Add" and confirm
 - All data is saved locally inside a .csv file
 
