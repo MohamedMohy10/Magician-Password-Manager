@@ -23,20 +23,22 @@ def save():
     website = website_enter.get()
     user = user_name_enter.get()
     user_password = password_enter.get()
-
+    
+    #  Check for missing values
     if len(website) == 0 or len(user) == 0 or len(user_password) == 0:
         messagebox.showerror(title="Empty fields", message="Please fill the missing fields")
+    
     else:
         consent = messagebox.askokcancel(title=website, message=f"These are the details entered:\nwebsite: {website}"
                                                                 f"\nuser: {user}\npassword: {user_password}\n\nDo You want to save ?")
 
-        if consent:
+        if consent: #  when the user confirms the entered info
             with open("data.csv", "a") as hand:  # open file
                 hand.write(f"{website},{user},{user_password}\n")
 
             messagebox.showinfo(title="Saving succeed", message="Your data has been saved")
 
-            # delete entries
+            # clear entries
             website_enter.delete(0, END)
             user_name_enter.delete(0, END)
             password_enter.delete(0, END)
