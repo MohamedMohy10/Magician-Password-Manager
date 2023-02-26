@@ -1,6 +1,6 @@
 # Magician-Password-Manager
 A very simple user friendly Password Manager
-
+It saves the user's data in a more secure way by saving it locally and generates secure random passwords for the user
 
 ![image](https://user-images.githubusercontent.com/61654046/220208918-0cb3c9c3-1779-467b-99ab-3ec496666323.png)
 
