@@ -11,7 +11,7 @@ It saves the user's data in a more secure way by saving it locally in a json fil
 - Enter the name of the place\website\platform you are signing up for.
 - Enter the user name or Email.
 - Enter the password OR make the MAGICIAN generate a random (12 ~ 18) character password through "Generate Password" button.
-- ###### CSV feature: check the "Add to .csv" to save your data inside a .csv file that you can access anytime outside the program.
+- #### CSV feature: check the "Add to .csv" to save your data inside a .csv file that you can access anytime outside the program.
 - Press "Add" and confirm.
 - All data is saved
 - Write the website name correctly then click the search button to view the email and passwords attached to it
