@@ -19,4 +19,4 @@ It saves the user's data in a more secure way by saving it locally in a json fil
 The program is still under improvement and there is a room for more features to be added ..
 
 
-- #### CSV feature [NEW]: Check the "Add to .csv" to save your data inside a .csv file that you can access anytime outside the program.
+- #### CSV Feature [NEW]: Check the "Add to .csv" to save your data inside a .csv file that you can access anytime outside the program.
