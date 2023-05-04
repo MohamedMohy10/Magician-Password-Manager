@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 from password_gen import *
 import json
-# import pyperclip  # To copy data to clipboard automatically
+import pyperclip  # To copy data to clipboard automatically
 
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
@@ -12,10 +12,6 @@ def make_password():
     generated_password = generate_password()
     password_enter.delete(0, END)
     password_enter.insert(0, generated_password)
-    # # Copy the generated password to clipboard
-    # pyperclip.copy(generated_password)
-    # messagebox.showinfo(title="saved", message="Password copied to clipboard")
-
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def save_csv():
@@ -81,7 +77,13 @@ def find_website():
         if website in loaded_data:
             user_email = loaded_data[website]['email']
             user_password = loaded_data[website]['password']
-            messagebox.showinfo(title=website, message=f"user: {user_email}\n password: {user_password}")
+
+            # Copy password to clipboard
+            pyperclip.copy(user_password)
+
+            messagebox.showinfo(title=website, message=f"user: {user_email}\npassword: {user_password}\n\n"
+                                                       f">> Password copied to clipboard !!")
+
         elif len(website) == 0:
             messagebox.showerror(title="Blank field", message="Enter a valid website name")
         else:
