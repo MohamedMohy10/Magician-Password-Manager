@@ -13,7 +13,7 @@ It saves the user's data in a more secure way by saving it locally in a json fil
 - Enter the password OR make the MAGICIAN generate a random (12 ~ 18) character password through "Generate Password" button.
 - Press "Add" and confirm.
 - All data is saved
-- Write the website name correctly then click the "Search" button to view the email and passwords attached to it. ####[NEW] Password is copied directly to clipboard
+- Write the website name correctly then click the "Search" button to view the email and passwords attached to it. #### [NEW] Password is copied directly to clipboard
 
 
 The program is still under improvement and there is a room for more features to be added ..
